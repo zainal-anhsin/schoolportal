@@ -37,7 +37,7 @@ const roundedCardData = [
     name: "Convent Datuk. K",
     type: "School",
     avatar: "/sidebar-image/school.png",
-    borderColor: "#7c5dfa",
+    borderColor: "#6666FF",
     bgColor: "#f8f8fa",
     bold: true,
   },
@@ -113,7 +113,7 @@ const Index = () => {
             bordercolor={card.borderColor}
             bgcolor={card.bgColor}
             style={{
-              ...(card.borderColor !== "transparent" ? { boxShadow: "0 0 0 2px #7c5dfa" } : {}),
+              ...(card.borderColor !== "transparent" ? { boxShadow: "0 0 0 2px #6666FF" } : {}),
               cursor: 'pointer',
             }}
           >
